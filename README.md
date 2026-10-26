@@ -4,7 +4,6 @@ Apple Vision Pro で収録した人の実演から、スキャナーの受け部
 
 ![全体の流れ](docs/figures/fig1_pipeline.png)
 
-- 説明資料: [docs/report.md](docs/report.md)
 
 ## 結果
 
