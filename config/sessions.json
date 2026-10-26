@@ -1,0 +1,104 @@
+{
+  "use": {
+    "p03": {
+      "trials": [
+        "trial_001"
+      ],
+      "ipad_video": {
+        "trial_001": "IMG_0807.MOV"
+      },
+      "ipad_view": "装置の右隣から横向きに撮影",
+      "protocol": "差し込みのみ（机のホルダーを持ち上げて差し込む）",
+      "note": "予備収録で唯一の成功。開始と終了の合図3回ずつを検出"
+    },
+    "p04": {
+      "trials": [
+        "trial_009",
+        "trial_011"
+      ],
+      "ipad_video": {
+        "trial_009": "IMG_0818.MOV",
+        "trial_011": "IMG_0820.MOV"
+      },
+      "ipad_view": "全体が映る引きの画角（人と装置の位置関係がわかる。差し込み口の手元は見えない）",
+      "protocol": "スライドの隣の作業台でホルダーにスライド3枚を置く → 開口部まで運んで差し込む",
+      "video_offset_s": {
+        "trial_009": 3.98,
+        "trial_011": 4.05
+      },
+      "video_offset_note": "動画時刻 ≒ 追跡時刻 − offset。動画の作成時刻（1秒単位）と収録開始時刻の差からの概算",
+      "note": "ユーザー申告で成功は trial_009 と trial_011。trial_010 は失敗、それ以外は中断・失敗・結果未入力"
+    },
+    "H01": {
+      "trials": [
+        "trial_001",
+        "trial_003",
+        "trial_004",
+        "trial_006",
+        "trial_007",
+        "trial_008",
+        "trial_010",
+        "trial_011",
+        "trial_012",
+        "trial_013",
+        "trial_014",
+        "trial_015",
+        "trial_016",
+        "trial_017",
+        "trial_018",
+        "trial_019",
+        "trial_020",
+        "trial_021",
+        "trial_022"
+      ],
+      "ipad_video": {
+        "trial_006": "IMG_0826.MOV",
+        "trial_007": "IMG_0827.MOV",
+        "trial_008": "IMG_0828.MOV",
+        "trial_010": "IMG_0830.MOV",
+        "trial_011": "IMG_0831.MOV",
+        "trial_012": "IMG_0832.MOV",
+        "trial_013": "IMG_0833.MOV",
+        "trial_014": "IMG_0834.MOV",
+        "trial_015": "IMG_0835.MOV",
+        "trial_016": "IMG_0836.MOV",
+        "trial_017": "IMG_0837.MOV",
+        "trial_018": "IMG_0838.MOV",
+        "trial_019": "IMG_0839.MOV",
+        "trial_020": "IMG_0840.MOV",
+        "trial_021": "IMG_0841.MOV",
+        "trial_022": "IMG_0842.MOV"
+      },
+      "ipad_view": "装置の正面やや左から、開口部と手元が映る画角",
+      "protocol": "スライドの隣の作業台でホルダーにスライド3枚を置く → 開口部まで運んで差し込む（本番収録1回目）",
+      "video_offset_s": {
+        "trial_006": 4.46,
+        "trial_007": 3.06,
+        "trial_008": 4.07,
+        "trial_010": 3.21,
+        "trial_011": 3.1,
+        "trial_012": 4.61,
+        "trial_013": 4.41,
+        "trial_014": 2.92,
+        "trial_015": 3.14,
+        "trial_016": 2.62,
+        "trial_017": 3.84,
+        "trial_018": 3.13,
+        "trial_019": 2.31,
+        "trial_020": 2.54,
+        "trial_021": 2.34,
+        "trial_022": 2.12
+      },
+      "video_offset_note": "動画時刻 ≒ 追跡時刻 − offset。作成時刻が1秒単位のため ±1秒程度の誤差あり",
+      "note": "trials.csv で成功（s）の19本。trial_001・003・004 は iPad 動画なし（撮影開始前）"
+    }
+  },
+  "exclude": {
+    "DRY01": "自宅での動作確認。アプリ再起動とマーカー移動が試行間にある",
+    "S01": "自宅での動作確認（合図・マーカー固定の確認用）",
+    "p01": "ユーザー指示により不使用（動画なし・手順誤り）",
+    "p02": "ユーザー指示により不使用（動画なし・手順誤り）",
+    "p04": "trial_001〜008, trial_010 は不使用（失敗・中断・結果未入力）",
+    "H01": "trial_002・009 は無効（ホルダー未セット／終了合図後に接触）、trial_005 は中断"
+  }
+}

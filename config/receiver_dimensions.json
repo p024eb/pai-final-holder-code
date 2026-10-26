@@ -1,0 +1,38 @@
+{
+  "source": "ユーザー実測（定規）、注釈付き写真とIMG_0790/0791の動画 2026-10-20",
+  "unit": "mm",
+  "holder_outer": {"width": 127, "depth": 84, "thickness": 4, "status": "ユーザー申告"},
+  "holder_orientation_on_stage": {
+    "interpretation": "短辺84 mmが左右、長辺127 mmが前後。印字（Place slides…）の辺が手前、OP-89157の角が右奥。金属の留め具3つが左側。スライド3枚は前後に並び、各スライドの長軸は左右でラベルが左",
+    "basis": "ユーザー指定の写真IMG_0772（写真の下側を手前と解釈）。④の103 mmに84 mmが収まることと整合",
+    "status": "確認済み（写真の下側＝手前）"
+  },
+  "measurements": {
+    "1_table_to_front_rim_height": {"value": 330, "interpretation": "机面から本体前面上縁までの高さ", "status": "解釈確認待ち"},
+    "2_body_width_at_rim": {"value": 333, "interpretation": "開口部の高さでの本体の左右外幅", "status": "解釈確認待ち"},
+    "3_front_rim_to_stage_depth": {"value": 100, "interpretation": "前面上縁からステージ手前までの前後の奥行き", "status": "確認済み"},
+    "4_stage_width": {"value": 103, "interpretation": "左の枠〜右のWIDEブロックの間の左右幅。ホルダー短辺84 mmが入り、左右の余裕は計19 mm", "status": "確認済み（向きと整合）"},
+    "5_stage_top_to_objective_bottom": {"value": 20, "interpretation": "当初「ステージ上面→対物レンズ下端」として申告。倒立型で対物レンズはホルダーの下にあり、上の部品は照明（7）と判明したため、この値はシミュレーションに使わない", "status": "不使用"},
+    "7_holder_to_illuminator": {"value": 45, "interpretation": "ホルダーから上部照明（黒い突起）の下面までの高さ。照明の水平位置（ホルダー中央か奥寄りか）は不明で、シミュレーションではホルダー中央の真上と仮定", "status": "ユーザー申告（概算）2026-10-21"},
+    "6_receiver_depth": {"value": 165, "interpretation": "受け部の前後の奥行き。ホルダー長辺127 mmが入り、前後の余裕は計38 mm", "status": "確認済み"}
+  },
+  "derived": {
+    "max_pitch_under_objective_deg": {
+      "value": 7.2,
+      "formula": "asin((20 - 4) / 127)",
+      "note": "長辺127 mm（前後）を対物レンズの真下で前後に傾ける場合の上限の目安"
+    },
+    "max_roll_under_objective_deg": {
+      "value": 11.0,
+      "formula": "asin((20 - 4) / 84)",
+      "note": "短辺84 mm（左右）を対物レンズの真下で左右に傾ける場合の上限の目安。レンズの真下を避けて傾けるなら制約はゆるくなる"
+    }
+  },
+  "holder_structure": "中空の枠（スライドを載せる開口部と留め具）。手前の帯は中央が3 mm、両端に向かって太くなり最大11 mm（ユーザー実測）。把持は帯の左右端に直径8 mmの吸着パッド2個を想定",
+  "objectives": "倒立型。対物レンズ6本のレボルバーがホルダーの下にある（IMG_0808）。対物レンズ上端とホルダー下面の隙間 8 mm（ユーザー実測）",
+  "mass_g": {"holder": 35, "slide_each": 5, "status": "ユーザー実測 2026-10-21"},
+  "not_measured": [
+    "前面上縁に対するステージ上面の高さ差（実デモのVision Pro軌跡から推定する）",
+    "ホルダーを支える段の幅・高さ、留め具の形状（シミュレーションでは簡略化した支持面で近似する）"
+  ]
+}

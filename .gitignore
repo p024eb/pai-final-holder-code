@@ -1,0 +1,11 @@
+data/
+runs/
+logs/
+third_party/
+__pycache__/
+.DS_Store
+*.mp4
+*.MOV
+*.mov
+*.zip
+*.pdf
