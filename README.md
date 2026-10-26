@@ -38,7 +38,7 @@ git clone https://github.com/google-deepmind/mujoco_menagerie third_party/mujoco
 
 ## 実行コード
 
-収録データは個人情報を含む可能性があるため、このリポジトリには入れていません。手順は次のとおりです。
+収録データは個人情報を含む可能性があるため、このリポジトリにはありません。手順は次のとおりです。
 
 ```bash
 # 1. 収録（Vision Pro の Tracking Streamer アプリと同じネットワークで）
